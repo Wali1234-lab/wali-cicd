@@ -1,0 +1,13 @@
+name: BYEEEE
+
+on:
+  push:
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - run: echo "BYEEEE"
