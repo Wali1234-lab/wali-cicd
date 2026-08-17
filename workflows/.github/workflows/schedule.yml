@@ -1,4 +1,4 @@
-name: heyyy
+name: change is made 
 on:
   push:              # Triggers instantly when you push code
   workflow_dispatch: # Allows manual trigger button
