@@ -1,5 +1,4 @@
-name: Scheduled Time Checker
-
+name: Scheduled Time 
 on:
   push:              # Triggers instantly when you push code
   workflow_dispatch: # Allows manual trigger button
