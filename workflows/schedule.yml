@@ -1,10 +1,14 @@
+name: Scheduled Time Checker
+
 on:
-  workflow_dispatch: # Allows manual trigger
+  push:              # Triggers instantly when you push code
+  workflow_dispatch: # Allows manual trigger button
   schedule:
     - cron: '*/2 * * * *'
 
 jobs:
-  hello_world:
+  display_time:
+    name: Print Server Time
     runs-on: ubuntu-latest
     steps:
       - name: Echo current time
