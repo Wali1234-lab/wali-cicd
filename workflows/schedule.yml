@@ -1,4 +1,5 @@
 on:
+  workflow_dispatch: # Allows manual trigger
   schedule:
     - cron: '*/2 * * * *'
 
